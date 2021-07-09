@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Pokemon_Detalle">
+
+
+
+    <TextView
+        android:id="@+id/nombrePokemon"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:text="Nombre"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/latitude"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:text="Latitud"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/longitude"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:text="Longitud"
+        android:gravity="center_horizontal" />
+
+    <ImageView
+        android:id="@+id/imagenPokemon"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:scaleType="fitXY" />
+    <Button
+        android:id="@+id/btnMapa"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:text="Mapa" />
+
+    <Button
+        android:id="@+id/btnCapturar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Capturar" />
+
+
+</LinearLayout>
